@@ -1,7 +1,7 @@
 import sqlite3
 
 # conn: é a váriavel para conexão com o banco de dados
-conn = sqlite3.connect("C:\kayky\python_sqlite\meu_banco_de_dados.db")
+conn = sqlite3.connect("sql\meu_banco_de_dados.db")
 
 cursor = conn.cursor()
 
